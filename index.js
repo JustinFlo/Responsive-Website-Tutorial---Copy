@@ -22,6 +22,7 @@ prev.onclick = () => {
     active = active - 1 < 0 ? countItem -1 : active - 1;
     other_1 = active + 1 >= countItem ? 0 : active + 1;
     other_2 = other_2 + 1 >= countItem ? 0 : other_1 + 1;
+    changeSlider();
 }
 
 const changeSlider = () => {
